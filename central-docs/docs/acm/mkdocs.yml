@@ -1,0 +1,17 @@
+site_name: ACM Documentation  # Change this to your project's name
+site_url: /acm/ #Important for rooted deployment
+# If your AWD documentation has its own theme settings, add them here.
+# Otherwise, it will inherit the settings from the root mkdocs.yml
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: pink
+    - scheme: slate
+      primary: indigo
+      accent: pink
+  navigation.instant: true
+
+nav:
+  - Home: index.md

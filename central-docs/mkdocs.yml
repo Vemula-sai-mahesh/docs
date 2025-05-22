@@ -1,0 +1,25 @@
+site_name: AtParUI Docs
+
+nav:
+  - Introduction:
+    - Overview: company-overview.md
+    - Vision: vision.md
+    - Technology-glossary: terminology-glossary.md
+    - Tech-stack-overview: tech-stack-overview.md
+    - prd: prd.md
+
+  - Projects:
+    - BHSO:
+        - Overview: bhso/docs/index.md
+        - Api Flow:
+          - Overview: bhso/docs/api-flow/index.md
+
+    - AWD:
+        - Overview: awd/docs/index.md
+        - Api Flow:
+          - Overview: awd/docs/api-flow/index.md
+    - ACM:
+        - Overview: acm/index.md
+
+theme:
+  name: 'material'

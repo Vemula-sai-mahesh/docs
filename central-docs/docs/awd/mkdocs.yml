@@ -1,0 +1,18 @@
+site_name: AWD Documentation  # Change this to your project's name
+site_url: /awd/ #Important for rooted deployment
+# If your AWD documentation has its own theme settings, add them here.
+# Otherwise, it will inherit the settings from the root mkdocs.yml
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: pink
+    - scheme: slate
+      primary: indigo
+      accent: pink
+  navigation.instant: true
+
+nav:
+  - Home: index.md
+  - API Flow: api-flow/index.md # Include the api-flow section

@@ -1,0 +1,155 @@
+/docs
+
+│
+
+├── 00-introduction/
+
+│   ├── company-overview.md
+
+│   ├── vision.md
+
+│   ├── terminology-glossary.md
+
+│   └── tech-stack-overview.md
+
+│
+
+├── 01-projects/
+
+|    ├── project_a/
+|    │   │   ├── docs/
+|    │   │   │   ├── images/  <-- New folder for images
+|    │   │   │   │   └── my_project_a_diagram.png
+|    │   │   │   ├── technical/
+|    │   │   │   │   └── index.md
+|    │   │   │   ├── requirement/
+|    │   │   │   │   └── index.md
+|    │   │   │   └── index.md
+|    │   │   └── mkdocs.yml
+|    |
+|    |__ project_b/      
+
+│
+
+├── 02-frontend/
+
+│   ├── react-app-template.md
+
+│   ├── folder-structure.md
+
+│   ├── code-style.md
+
+│   ├── testing-strategy.md
+
+│   └── common-libs.md
+
+│
+
+├── 03-backend/
+
+│   ├── spring-boot-template.md
+
+│   ├── microservices-guidelines.md
+
+│   ├── api-versioning.md
+
+│   ├── db-migration.md
+
+│   └── error-handling.md
+
+│
+
+├── 04-devops/
+
+│   ├── docker/
+
+│   │   ├── base-image-standards.md
+
+│   │   ├── docker-compose-setup.md
+
+│   │   └── security-best-practices.md
+
+│   ├── ci-cd/
+
+│   │   ├── github-actions.md
+
+│   │   └── gitlab-pipelines.md
+
+│   └── deployment-environments.md
+
+│
+
+├── 05-standards/
+
+│   ├── code-review.md
+
+│   ├── git-workflow.md
+
+│   ├── branching-strategy.md
+
+│   ├── logging-guidelines.md
+
+│   └── secrets-management.md
+
+│
+
+├── 06-approaches-and-patterns/
+
+│   ├── monorepo-vs-multirepo.md
+
+│   ├── service-communication-patterns.md
+
+│   ├── caching-strategies.md
+
+│   └── performance-optimization.md
+
+│
+
+├── 07-external-docs/
+
+│   ├── oauth-setup-keycloak.md
+
+│   ├── aws-best-practices.md
+
+│   └── third-party-integrations.md
+
+│
+
+├── 08-problem-solutions/
+
+│   ├── react-build-issue-fix.md
+
+│   ├── spring-boot-cors-fix.md
+
+│   ├── docker-network-issues.md
+
+│   └── keycloak-redirect-issue.md
+
+│
+
+├── 09-todos-and-roadmap/
+
+│   ├── team-todos.md
+
+│   ├── pending-decisions.md
+
+│   ├── backlog-ideas.md
+
+│   └── product-roadmap.md
+
+│
+
+├── 10-onboarding/
+
+│   ├── new-dev-setup.md
+
+│   ├── internal-tools.md
+
+│   ├── access-control-guide.md
+
+│   └── FAQ.md
+
+│
+
+└── index.md (Home page of the documentation)
+
