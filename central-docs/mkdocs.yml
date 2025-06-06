@@ -11,9 +11,16 @@ nav:
   - Projects:
     - BHSO:
         - Overview: bhso/docs/index.md
+        - Authentication: bhso/docs/authentication.md
+        - Api Reference:
+          - Overview: bhso/docs/api-reference/overview.md
+          - Users: bhso/docs/api-reference/users.md
+          - Appointments: bhso/docs/api-reference/appointments.md
+          - Patients: bhso/docs/api-reference/patients.md
+          - Doctors: bhso/docs/api-reference/doctors.md
+          - Departments: bhso/docs/api-reference/departments.md
         - Api Flow:
-          - Overview: bhso/docs/api-flow/index.md
-
+            - Overview: bhso/docs/api-flow/index.md
     - AWD:
         - Overview: awd/docs/index.md
         - Api Flow:

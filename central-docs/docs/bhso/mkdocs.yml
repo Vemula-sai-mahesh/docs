@@ -15,3 +15,10 @@ theme:
 
 nav:
   - Home: index.md
+  - Authentication: authentication.md
+  - Overview: api-reference/overview.md
+  - Users: api-reference/users.md
+  - 'Appointments': 'api-reference/appointments.md'
+  - 'Patients': 'api-reference/patients.md'
+  - 'Doctors': 'api-reference/doctors.md'
+  - 'Departments': 'api-reference/departments.md'
